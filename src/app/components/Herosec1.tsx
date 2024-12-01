@@ -3,41 +3,8 @@ import Image from 'next/image'
 
 export const Herosec1=()=>{
     return(
-        // <section className="w-full h-[110vh]  pt-20 border-b-2 border-x-amber-100">
-        //     <div className="flex justify-between ">
-        //         <div className="w-3/5 h-full">
-        //             <div className="pl-28 pt-20">
-        //                 <h1 className="text-[#044E83] font-extrabold text-6xl tracking-wider">Governor Sindh</h1>
-        //                 <h2 className="text-[#044E83] text-5xl tracking-wider">Kamran Khan Tessori</h2>
-        //                 <h2 className="text-cyan-500 text-4xl font-extrabold pb-4 w-72">Certified Cloud Applied Generative AI Engineer (GenEng)</h2>
-        //                 <p className="text-[#044E83] font-extrabold text-xl pb-3"> Earn up to $5,000 / month{" "}</p>
-        //                 <p className="text-[#044E83] font-extrabold text-2xl w-[340px] pb-6">Now admissions are open in Hyderabad</p>
-
-        //                 <div className="flex gap-32">
-        //                     <button className="text-white font-bold bg-[#044E83] border-none text-center pt-3 pb-3 pl-11 pr-11 rounded-md">Apply Now</button>
-                            
-        //                     <div>
-        //                         <p className="text-[#044E83] font-extrabold text-3xl">562,143</p>
-        //                         <p className='text-[#044E83]'> Accepted Applications</p>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-
-        //         <div className="h-full w-2/5 pl-24">
-        //         <Image className="object-cover object-center rounded h-[39rem] w-[34rem]" alt={"hero1"} height={600} width={600}
-        //         src={require("../../../public/image/Picture1.png")}></Image>
-
-        //         </div>
-        //     </div>
-
-        // </section>
-
-
-
-
-
-        <section className=" body-font relative w-full min-h-screen sm:h-[700px] mt-20">
+       
+        <section className=" body-font bg-white relative w-full min-h-screen sm:h-[700px] mt-20">
 
             <div className="absolute inset-0">
           <Image

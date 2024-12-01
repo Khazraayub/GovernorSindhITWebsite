@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Herosec2 = () => {
   return (
-    <section className=" body-font">
+    <section className="bg-white body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-[#044E83]">
@@ -40,7 +40,7 @@ export const Herosec2 = () => {
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="w-full h-full items-center justify-center rounded-full  mb-4">
               <Image
-                src={require("../../../public/image/picture3.jpg")}
+                src={require("../../../public/image/picture-3.jpg")}
                 alt={"hero3"}
                 className="rounded-[8px] w-full h-full object-cover shadow-xl  shadow-zinc-700 "
               ></Image>
